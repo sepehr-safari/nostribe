@@ -1,3 +1,3 @@
 # Nostribe
 
-Yet another Nostr client, built with [Osty](https://osty.dev).
+Yet another Nostr client, powered by [Osty](https://github.com/ostyjs/create-osty).

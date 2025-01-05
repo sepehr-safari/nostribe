@@ -21,9 +21,9 @@ const Layout = () => {
     <>
       <div className="flex flex-col justify-between h-full w-full max-w-screen-md mx-auto">
         <div className="flex justify-between items-center border-b p-2">
-          <div>
+          <Link to="/">
             <h2>Nostribe</h2>
-          </div>
+          </Link>
 
           <div>{activeUser ? <ActiveUserWidget /> : <LoginWidget />}</div>
         </div>
@@ -35,9 +35,9 @@ const Layout = () => {
         <div className="p-2 flex items-center justify-between">
           <div className="text-xs flex items-center gap-1">
             <span>Powered by</span>
-            <Link to={`/profile/${sepehr?.npub}`} className="hover:underline">
+            <a href="https://osty.dev" target="_blank" rel="noreferrer">
               Osty
-            </Link>
+            </a>
           </div>
 
           <div className="flex items-center gap-2">
@@ -50,7 +50,7 @@ const Layout = () => {
             )}
 
             <Button variant="outline" size="icon" asChild className="ml-auto">
-              <a href="https://github.com/sepehr-safari/nostribe" target="_blank" rel="noreferrer">
+              <a href="https://github.com/ostyjs/create-osty" target="_blank" rel="noreferrer">
                 <GitHubLogoIcon />
               </a>
             </Button>

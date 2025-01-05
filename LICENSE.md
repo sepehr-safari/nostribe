@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2024 [Sepehr Safari](https://github.com/sepehr-safari)
+Copyright (c) 2025 [Sepehr Safari](https://github.com/sepehr-safari)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
